@@ -1,3 +1,5 @@
+"""Module providing a function printing python version."""
+
 my_dict = {
     "tuple": (1, 2, 3, 4, 5),
     "list": [10, 20, 30, 40, 50],
