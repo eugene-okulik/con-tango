@@ -5,7 +5,7 @@ str_4 = "результат: 2"
 
 
 def add_ten(my_string):
-    print(int(my_string[my_string.find(":") + 2 :]) + 10)
+    print(int(my_string[my_string.find(":") + 2:]) + 10)
 
 
 add_ten(str_1)
