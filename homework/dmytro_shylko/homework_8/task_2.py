@@ -4,12 +4,18 @@ def fibonacci_generator():
         yield a
         a, b = b, a + b
 
-fibo = fibonacci_generator() 
+
+
+fibo = fibonacci_generator()
+
+
 
 def fibo_number(n):
     for _ in range(n - 1):
         next(fibo)
     return next(fibo)
+
+
 
 print(f"Пятое число: {fibo_number(5)}\n")
 print(f"Двухсотое число: {fibo_number(200)}\n")
