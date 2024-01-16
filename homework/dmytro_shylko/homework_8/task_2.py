@@ -5,16 +5,13 @@ def fibonacci_generator():
         a, b = b, a + b
 
 
-
 fibo = fibonacci_generator()
-
 
 
 def fibo_number(n):
     for _ in range(n - 1):
         next(fibo)
     return next(fibo)
-
 
 
 print(f"Пятое число: {fibo_number(5)}\n")
